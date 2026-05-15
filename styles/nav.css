@@ -10,7 +10,7 @@ nav ul{
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: .5rem;
     padding-block: 8px;
 }
 
@@ -19,3 +19,12 @@ nav ul li:last-child img{
     height: 40px;
 }
 
+@media (width >=80em){
+    nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-block: 8px;
+}
+}
